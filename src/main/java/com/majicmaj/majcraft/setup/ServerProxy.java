@@ -1,6 +1,5 @@
 package com.majicmaj.majcraft.setup;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.world.World;
 
 public class ServerProxy implements IProxy {

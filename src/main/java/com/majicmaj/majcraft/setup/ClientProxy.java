@@ -7,4 +7,10 @@ public class ClientProxy implements IProxy {
 	public World getClientWorld() {
 		return Minecraft.getInstance().world;
 	}
+
+	@Override
+	public void init() {
+		// TODO Auto-generated method stub
+		
+	}
 }

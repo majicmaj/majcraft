@@ -12,6 +12,6 @@ public class SilverBlock extends Block{
 				.hardnessAndResistance(2.0f)
 				.lightValue(14)
 		);
-		setRegistryName("silverblock");
+		setRegistryName("silver_block");
 	}
 }

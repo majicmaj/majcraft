@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 import com.majicmaj.majcraft.blocks.ModBlocks;
 import com.majicmaj.majcraft.blocks.SilverBlock;
+import com.majicmaj.majcraft.items.SilverIngot;
 import com.majicmaj.majcraft.setup.ClientProxy;
 import com.majicmaj.majcraft.setup.IProxy;
 import com.majicmaj.majcraft.setup.ModSetup;
@@ -49,7 +50,8 @@ public class Majcraft {
 		public static void onItemRegistry(final RegistryEvent.Register<Item> event) {
 			Item.Properties properties = new Item.Properties()
 					.group(setup.itemGroup);
-			event.getRegistry().register(new BlockItem(ModBlocks.SILVERBLOCK, properties).setRegistryName("silverblock"));
+			event.getRegistry().register(new BlockItem(ModBlocks.SILVERBLOCK, properties).setRegistryName("silver_block"));
+			event.getRegistry().register(new SilverIngot());
 		}
 	}
 }

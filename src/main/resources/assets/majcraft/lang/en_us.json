@@ -1,5 +1,6 @@
-{
-	"block.majcraft.silverblock": "Block of Silver",
+{	
+	"item.majcraft.silver_ingot": "Silver Ingot",
+	"block.majcraft.silver_block": "Block of Silver",
 	
 	"_comment": "Creative Tabs",
 	"itemGroup.majcraft": "Majcraft"

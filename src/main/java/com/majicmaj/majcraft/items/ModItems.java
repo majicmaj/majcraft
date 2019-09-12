@@ -12,6 +12,6 @@ public class ModItems {
 	@ObjectHolder("majcraft:cold_iron_ingot")
 	public static ColdIronIngot COLDIRONINGOT;
 	
-	@ObjectHolder("majcraft:silver_ingot")
+	@ObjectHolder("majcraft:obsidian_ingot")
 	public static ObsidianIngot OBSIDIANINGOT;
 }

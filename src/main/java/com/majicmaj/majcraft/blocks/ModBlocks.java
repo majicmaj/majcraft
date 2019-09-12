@@ -17,6 +17,6 @@ public class ModBlocks {
 	@ObjectHolder("majcraft:artisian_station")
 	public static ArtisianStation ARTISIANSTATION;
 	
-	@ObjectHolder("majcraft:artisitan_station")
+	@ObjectHolder("majcraft:artisian_station")
 	public static TileEntityType<ArtisianStationTile> ARTISIANSTATIONTILE;
 }

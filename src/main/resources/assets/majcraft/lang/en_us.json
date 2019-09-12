@@ -1,6 +1,12 @@
 {	
+	"item.majcraft.cold_iron_ingot": "Cold Iron Ingot",
 	"item.majcraft.silver_ingot": "Silver Ingot",
+	"item.majcraft.adamantine_ingot": "Adamantine Ingot",
+	"item.majcraft.obsidian_ingot": "Obsidian Ingot",
 	"block.majcraft.silver_block": "Block of Silver",
+	"block.majcraft.artisian_station": "Artisian Station",
+	"block.majcraft.adamantine_block": "Block of Adamantine",
+	"block.majcraft.cold_iron_block": "Block of Cold Iron",
 	
 	"_comment": "Creative Tabs",
 	"itemGroup.majcraft": "Majcraft"

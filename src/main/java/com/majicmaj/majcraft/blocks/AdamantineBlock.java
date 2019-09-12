@@ -5,16 +5,16 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class SilverBlock extends Block{
+public class AdamantineBlock extends Block{
 	
-	public SilverBlock() {
+	public AdamantineBlock() {
 		super(Properties.create(Material.IRON)
 				.sound(SoundType.METAL)
 				.hardnessAndResistance(5.0f)
 				//.lightValue(14)
-				.harvestLevel(1)
+				.harvestLevel(2)
 				.harvestTool(ToolType.PICKAXE)
 		);
-		setRegistryName("silver_block");
+		setRegistryName("adamantine_block");
 	}
 }

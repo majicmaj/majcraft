@@ -5,16 +5,16 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class SilverBlock extends Block{
+public class ArtisianStation extends Block{
 	
-	public SilverBlock() {
-		super(Properties.create(Material.IRON)
-				.sound(SoundType.METAL)
-				.hardnessAndResistance(5.0f)
+	public ArtisianStation() {
+		super(Properties.create(Material.WOOD)
+				.sound(SoundType.WOOD)
+				.hardnessAndResistance(2.5f)
 				//.lightValue(14)
 				.harvestLevel(1)
 				.harvestTool(ToolType.PICKAXE)
 		);
-		setRegistryName("silver_block");
+		setRegistryName("artisian_station");
 	}
 }

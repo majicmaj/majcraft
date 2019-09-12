@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	" x ",
+	"zyz",
+	"zzz"
+	],
+	"key": {
+		"x": {
+			"item": "minecraft:crafting_table"
+		},
+		"y": {
+			"item": "minecraft:blast_furnace"
+		},
+		"z": {
+			"item": "minecraft:iron_block"
+		}
+	},
+	"result": {
+		"item": "majcraft:artisian_station"
+	}
+}

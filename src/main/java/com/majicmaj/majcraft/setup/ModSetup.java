@@ -10,7 +10,7 @@ public class ModSetup {
 	public ItemGroup itemGroup = new ItemGroup("majcraft") {
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ModBlocks.SILVERBLOCK);
+				return (new ItemStack(ModBlocks.SILVERBLOCK));
 			}
 		};
 	public void init() {

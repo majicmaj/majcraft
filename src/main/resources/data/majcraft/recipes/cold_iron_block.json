@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+	"xxx",
+	"xxx",
+	"xxx"
+	],
+	"key": {
+		"x": {
+			"item": "majcraft:cold_iron_ingot"
+		}
+	},
+	"result": {
+		"item": "majcraft:cold_iron_block"
+	}
+}

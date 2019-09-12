@@ -5,9 +5,9 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class SilverBlock extends Block{
+public class ColdIronBlock extends Block{
 	
-	public SilverBlock() {
+	public ColdIronBlock() {
 		super(Properties.create(Material.IRON)
 				.sound(SoundType.METAL)
 				.hardnessAndResistance(5.0f)
@@ -15,6 +15,6 @@ public class SilverBlock extends Block{
 				.harvestLevel(1)
 				.harvestTool(ToolType.PICKAXE)
 		);
-		setRegistryName("silver_block");
+		setRegistryName("cold_iron_block");
 	}
 }

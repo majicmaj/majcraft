@@ -1,5 +1,6 @@
 package com.majicmaj.majcraft.blocks;
 
+import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.registries.ObjectHolder;
 
 public class ModBlocks {
@@ -15,4 +16,7 @@ public class ModBlocks {
 	
 	@ObjectHolder("majcraft:artisian_station")
 	public static ArtisianStation ARTISIANSTATION;
+	
+	@ObjectHolder("majcraft:artisitan_station")
+	public static TileEntityType<ArtisianStationTile> ARTISIANSTATIONTILE;
 }

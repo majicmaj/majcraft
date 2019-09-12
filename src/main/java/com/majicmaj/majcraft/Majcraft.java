@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 import com.majicmaj.majcraft.blocks.AdamantineBlock;
 import com.majicmaj.majcraft.blocks.ArtisianStation;
+import com.majicmaj.majcraft.blocks.ArtisianStationTile;
 import com.majicmaj.majcraft.blocks.ColdIronBlock;
 import com.majicmaj.majcraft.blocks.ModBlocks;
 import com.majicmaj.majcraft.blocks.SilverBlock;
@@ -20,6 +21,7 @@ import com.majicmaj.majcraft.setup.ServerProxy;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
@@ -74,6 +76,11 @@ public class Majcraft {
 			event.getRegistry().register(new ColdIronIngot());
 			event.getRegistry().register(new AdamantineIngot());
 
+		}
+		
+		@SubscribeEvent
+		public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> event) {
+			event.getRegistry().register(TileEntityType.Builder.create(ArtisianStationTile::new, ModBlocks.ARTISIANSTATION).build(null).setRegistryName("artisian_station"));
 		}
 	}
 }

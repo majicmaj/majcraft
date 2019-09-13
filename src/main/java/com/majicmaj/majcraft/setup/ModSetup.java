@@ -1,7 +1,6 @@
 package com.majicmaj.majcraft.setup;
 
 import com.majicmaj.majcraft.blocks.ModBlocks;
-
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
@@ -13,6 +12,7 @@ public class ModSetup {
 				return (new ItemStack(ModBlocks.SILVERBLOCK));
 			}
 		};
-	public void init() {
+		public void init() {
+			
 		}
 }

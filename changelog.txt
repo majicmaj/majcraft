@@ -1,3 +1,55 @@
+Build: 1.14.4-28.1.1 - Thu Sep 12 18:10:59 GMT 2019
+	diesieben07:
+		Fix patch for vanilla spawning in WorldEntitySpawner (#6130)
+
+=========
+Build: 1.14.4-28.1.0 - Thu Sep 12 16:14:54 GMT 2019
+	lex:
+		Fix Entity.getPersistentData function name. Closes #6131 Bump spec
+		version for first 1.14.4 RB.
+
+=========
+Build: 1.14.4-28.0.107 - Thu Sep 12 16:01:53 GMT 2019
+	JDLogic:
+		Fix ParticleFactoryRegisterEvent not firing (#6126)
+
+=========
+Build: 1.14.4-28.0.106 - Thu Sep 12 15:43:48 GMT 2019
+	gigaherz:
+		Minor fixes to the fluids (#6150)
+		* Fixed vanilla rendering of fluids to take into account the alpha bits
+		of the color, and fix usages accordingly.
+		* Fixed missing texture derp.
+
+=========
+Build: 1.14.4-28.0.105 - Wed Sep 11 14:00:40 GMT 2019
+	gigaherz:
+		Some (sadly breaking) improvements to the Fluid API (#6110)
+		* Some (sadly breaking) improvements to the API, after feedback and
+		concerns provided by users:
+		 - Moved calculation of the translation key to the FluidAttributes
+		constructor, so that builders can be shared between still & flowing
+		sub-fluids.
+		 - Moved biome-based coloring to a dedicated FluidAttributes.Water
+		variant, which is not used by default.
+		 - Added logic to automatically gather fluid textures into the list of
+		textures to bake.
+		 - Patched BucketItem and FlowingFluidBlock to avoid eager access to the
+		fluid objects.
+		 - Added a ForgeFlowingFluid class, as a more user-friendly way to
+		construct a new FlowingFluid.
+
+=========
+Build: 1.14.4-28.0.104 - Tue Sep 10 23:02:31 GMT 2019
+	lex:
+		Delay Block loot table name generation until needed, as calling early
+		will result in an empty name as the block is not registered yet.
+
+	lex:
+		Add new DeferredRegistry helper, and change RegistryObject to update
+		when overrides are registered.
+
+=========
 Build: 1.14.4-28.0.102 - Mon Sep 09 22:30:19 GMT 2019
 	lex:
 		Fix slimes splitting more times then they should. Closes #6138

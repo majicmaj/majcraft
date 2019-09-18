@@ -1,7 +1,0 @@
-{
-	"parent": "block/cube_all",
-	"textures": {
-		"particle": "majcraft:block/cold_iron_ore",
-		"all": "majcraft:block/cold_iron_ore"
-	}
-}
